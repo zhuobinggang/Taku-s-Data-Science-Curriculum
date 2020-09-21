@@ -13,4 +13,4 @@
 
 ### QA
 
-* [2020/8](https://www.youtube.com/watch?v=lj-LGrnh1oU&ab_channel=YannicKilcher) 其实我不是很懂这个，白看了，对这个不熟。总的来说就是把整个资料库用来pretrain一个document retriver，然后来回答问题。又是一个大突破只能这样说。应用方面我想想，首先要有一个完善，不变的资料库，话说真的是不能变么？也许不一定，emm，我还是不评价了
+* [2020/8 REALM](https://www.youtube.com/watch?v=lj-LGrnh1oU&ab_channel=YannicKilcher) 其实我不是很懂这个，白看了，对这个不熟。总的来说就是把整个资料库用来pretrain一个document retriver，然后来回答问题。又是一个大突破只能这样说。应用方面我想想，首先要有一个完善，不变的资料库，话说真的是不能变么？也许不一定，emm，我还是不评价了
