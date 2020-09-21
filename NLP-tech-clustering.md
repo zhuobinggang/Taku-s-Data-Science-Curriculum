@@ -11,4 +11,6 @@
 
 * [2018/4 World Models](https://www.youtube.com/watch?v=dPsXxLyqpfs&ab_channel=YannicKilcher) 因为每次都要调动simulator的话，训练会变得太昂贵（等等，这里用replay buff不就能解决了？），所以他们决定训练一个model去模仿simulator的逻辑。具体做法是VAE来压缩图片，这个只是优化用，用RNN来预测下一帧的动作才是重点。相当于对世界的逻辑建模
 
+### QA
 
+* [2020/8](https://www.youtube.com/watch?v=lj-LGrnh1oU&ab_channel=YannicKilcher) 其实我不是很懂这个，白看了，对这个不熟。总的来说就是把整个资料库用来pretrain一个document retriver，然后来回答问题。又是一个大突破只能这样说。应用方面我想想，首先要有一个完善，不变的资料库，话说真的是不能变么？也许不一定，emm，我还是不评价了
