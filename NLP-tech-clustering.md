@@ -2,8 +2,12 @@
 
 * No50 [2020/6 Learning To Classify Images Without Labels (Paper Explained)](https://www.youtube.com/watch?v=hQEnzdLkPj4&ab_channel=YannicKilcher) 一个新的clustering算法SCAN，在没有label的情况下都能达到很好的训练效果。主要流程是，首先用Transform来对图片做处理，然后用CNN来获取处理前后图片的latent representation，并努力缩减两者间的欧几里得距离，以此训练神经网络a。然后通过a把所有数据压缩到latent representation，以此弄成新的数据集，然后每个图片跟最邻近的5个图片作为一组用来训练神经网络b，b输出的结果是softmax，努力让结果一致就完了
 * No51 [2016 Unsupervised learning of visual representations by solving jigsaw puzzles] 将图片切成小块，然后重新拼回来，自监督算法。主要是No50有用到。Q：难道不会只学到边缘贴合算法？
+* [2016 Context Encoders: Feature Learning by Inpainting](https://arxiv.org/abs/1604.07379) Inpainting跟AutoEncoder的区别在于后者是整块图片而前者只是图片中的一部分，他们称之为Context Encoder。主要是No50有用到，这个就是bert的灵感来源，我猜。
+* [2016 Colorful Image Colorization](https://arxiv.org/abs/1603.08511) 自监督，去色，上色。主要是No50有用到。问题是NLP怎么去掉颜色？
+
 
 ### Summarization
+* [2020 Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795)，我的研究计划书的灵感来源，通过将句子的representation和整个document的相比较进行句子抽出。
 
 
 ### Translation
