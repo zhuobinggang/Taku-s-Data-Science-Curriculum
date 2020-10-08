@@ -9,7 +9,7 @@
 
 ### Summarization
 * No53 [2020 Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795)，我的研究计划书的灵感来源，通过将句子的representation和整个document的相比较进行句子抽出。
-
+* No54 [2019 Sentence-bert](https://arxiv.org/abs/1908.10084)
 
 ### Translation
 
