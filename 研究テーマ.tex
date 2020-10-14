@@ -28,15 +28,21 @@
   \label{fig:img1}
 \end{figure}
 
-\section{関連研究}
+\section{*関連研究}
 
 本研究で使ったデータセットWikiSectionは、Arnoldらの最近の研究（《SECTOR: A Neural Model for Coherent Topic Segmentation and Classification》）によるものである。\\
 
-彼らの研究手法は、まず文をword2vecで特徴ベクトルに転換し、BLSTMを使って両方向の文脈に基づきその文を複数のトピックカテゴリに分類する。\\
+彼らの研究手法は、まず文をword2vecで特徴ベクトルに転換し、BLSTMを使って両方向の文脈に基づきその文を複数のトピックカテゴリに分類する(画像\ref{fig:img2})。\\
 
 本研究は、トピックカテゴリを使わず、文を分類せず、分割の位置だけに注目する。\\
 
 しかし、BLSTMを使ってトピックの埋め込み(embedding)を取得できる、そのため、モデルはトピックへの理解が深めるではないかと懸念する。\\
+
+\begin{figure}
+  \includegraphics[scale=0.5]{imgs/02.png}
+  \caption{関連研究sectorの構造とセクションの区切り方。biLSTMを用いり、トピック埋め込み(embedding)も獲得可能。}
+  \label{fig:img2}
+\end{figure}
 
 \section{研究目的}
 
@@ -50,14 +56,15 @@
 
 トピック分割モデルを予備訓練するために、自己教師あり(self-supervised)の学習手法を提出する：コーパスから文書を読み取り、その文書の全ての段落を一つに合わせ、モデルに段落の再分割をさせる。その訓練により、モデルがトピックへの理解を学習できると期待する。\\
 
-\subsection{可能な問題と解決法}
+\subsection{*可能な問題と解決法}
 \begin{itemize}
 \item 問題点１：　独立した文だけで段落分割は難しい、文脈関係は必要。
 \item 解決法：　その文と前後のN文をモデルに与える。
 \item 問題点２：　毎回の決定(decision)は独立であり、無駄、過剰な段落分けが発生する可能性がある。
 \item 解決法：　ポインタネットワークを導入。決定同士に影響を与えられる。
 \item 問題点３：　微調整のデータセットとやり方。
-\item 解決法：　4.4節で説明する。
+\item 解決法：　データセットはWikiSectionを使用する。4.4節で詳しく説明する。
+
 
 \end{itemize}
 
@@ -73,7 +80,7 @@
 
 Sentence-BERTを使えば、文を特徴ベクトルに転換できる。
 
-\subsection{微調整のデータセットとやり方}
+\subsection{*微調整用のデータセットとやり方}
 
 データセットはWikiSectionを使用し、githubで直接取得できる。ウィキペディアの各エントリは複数のサブセクションに分割され、それぞれにサブセクション名が付いている（たとえば、とある病気のエントリは症状と治療方法のサブセクションを含む）。WikiSectionはそれに基づいて作成された。\\
 
