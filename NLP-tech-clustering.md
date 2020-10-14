@@ -9,7 +9,7 @@
 
 ### Summarization
 * No53 [2020 Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795)，我的研究计划书的灵感来源，通过将句子的representation和整个document的相比较进行句子抽出。
-* No54 [2019 Sentence-bert](https://arxiv.org/abs/1908.10084)
+* No54 [2019 Sentence-bert](https://arxiv.org/abs/1908.10084) 历史：过去的practice有用第一个token来作为输出或者用「bert embedding」的手法来获取sentence embedding，但是甚至比Glove embedding还要差。性能：计算10,000个句子的embedding要5秒，然后计算相似度0.01秒。实现：其中两个手法跟前面的practice一致，一个是cls，一个是mean，一个是max，共三个策略。）还得补triplet network。
 
 ### Translation
 
