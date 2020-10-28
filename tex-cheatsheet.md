@@ -28,3 +28,28 @@
   \label{fig:img1}
 \end{figure}
 ```
+
+## 插入表格
+```tex
+\begin{table}[]
+    \begin{tabular}{|c|}
+    \hline
+        分割前： ddddddddd \\
+        分割後：dd dd dd\\
+    \hline
+    \end{tabular}
+    \caption{}
+    \label{tab:my_label}
+\end{table}
+```
+
+## 表格固定位置
+首先在开头加两句，然后在table加H选项
+```tex
+\usepackage{float}
+\restylefloat{table}
+
+...
+
+\begin{table}[H]
+```
