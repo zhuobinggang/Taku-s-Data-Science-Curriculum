@@ -53,3 +53,15 @@
 
 \begin{table}[H]
 ```
+
+## 表格加边框
+用`|c|`来左右加边框，用`\hline`来上下加边框
+
+```tex
+    \begin{tabular}{|c|}
+    \hline
+        分割前： ddddddddd \\
+        分割後：dd dd dd\\
+    \hline
+    \end{tabular}
+```
