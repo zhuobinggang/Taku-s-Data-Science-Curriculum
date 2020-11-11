@@ -65,3 +65,34 @@
     \hline
     \end{tabular}
 ```
+
+## 插入引用
+首先引用包复制即可，然后声明路径为qhe.bib
+```tex
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{qhe.bib}
+```
+
+qhe文件的内容
+```tex
+@inproceedings{vinyals2015pointer,
+  title={Pointer networks},
+  author={Vinyals, Oriol and Fortunato, Meire and Jaitly, Navdeep},
+  booktitle={Advances in neural information processing systems},
+  pages={2692--2700},
+  year={2015}
+}
+
+@article{zhong2020extractive,
+  title={Extractive Summarization as Text Matching},
+  author={Zhong, Ming and Liu, Pengfei and Chen, Yiran and Wang, Danqing and Qiu, Xipeng and Huang, Xuanjing},
+  journal={arXiv preprint arXiv:2004.08795},
+  year={2020}
+}
+```
+从谷歌复制即可
