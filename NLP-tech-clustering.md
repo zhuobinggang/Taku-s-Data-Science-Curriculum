@@ -14,6 +14,7 @@
 ### Translation
 
 * [2019/4 Neural Text Degeneration](https://arxiv.org/abs/1904.09751) 1）自然语言理解质量高可是一旦生成就低质量是反直觉的 2）Decoding strategies alone have dramatical effect 3）提出了Necleus Sampling， （2021/1/4）做指针网络碰到了反复输出同个指针的问题，就到网上找seq2seq repeat，然后就找到这个，现在不知道有多少帮助，不过至少是影响力很大的一篇论文，然后我也确实在整decoding问题，然后指针网络和生成词语的区别其实就是动态非动态的区别，总该有帮助的，从最新的成果回溯总是好的，先看看吧。
+* [2020/3 Decoding Strategies](https://huggingface.co/blog/how-to-generate) 只是博客，Beam Search可以看看 
 
 ### RL
 
