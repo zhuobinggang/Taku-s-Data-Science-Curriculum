@@ -13,6 +13,8 @@
 
 ### Translation
 
+* [2019/4 Neural Text Degeneration](https://arxiv.org/abs/1904.09751) 1）自然语言理解质量高可是一旦生成就低质量是反直觉的 2）Decoding strategies alone have dramatical effect 3）提出了Necleus Sampling， （2021/1/4）做指针网络碰到了反复输出同个指针的问题，就到网上找seq2seq repeat，然后就找到这个，现在不知道有多少帮助，不过至少是影响力很大的一篇论文，然后我也确实在整decoding问题，然后指针网络和生成词语的区别其实就是动态非动态的区别，总该有帮助的，从最新的成果回溯总是好的，先看看吧。
+
 ### RL
 
 * [2018/4 World Models](https://www.youtube.com/watch?v=dPsXxLyqpfs&ab_channel=YannicKilcher) 因为每次都要调动simulator的话，训练会变得太昂贵（等等，这里用replay buff不就能解决了？），所以他们决定训练一个model去模仿simulator的逻辑。具体做法是VAE来压缩图片，这个只是优化用，用RNN来预测下一帧的动作才是重点。相当于对世界的逻辑建模
