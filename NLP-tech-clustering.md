@@ -31,7 +31,9 @@
 * [2015/6 Pointer networks] 说实话一直对这个模型的灵活性很佩服，可是现在（2021/1/4）因为用到所以重读了一遍发现: 1) 原本的精度就不高（train50，test50，精度72.6%） 2）他们测试的时候限制了输出数量，所以能跟LSTM作对比
 * [2015/11 order matters](https://arxiv.org/abs/1511.06391) 
   * Q： 将输入数据的顺序打乱再训练，就能够提升精度么？
-
+  * A: 是的，主要是鼓励片段(短期)依赖，可以想象，使优化变得更加容易[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
+  - 看了前半部分，发现它的reader完全就是个transformer，我估计tf有引用这个文献，居然没有。不过问题就来了，既然顺序不重要，那么position embedding有什么意义？
+  
 ### Open-ended Generation
 
 * [Neural Text Generation in Stories Using Entity Representations as Context] (https://vimeo.com/277672801) 有视频，可以
