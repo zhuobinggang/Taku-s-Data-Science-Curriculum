@@ -29,6 +29,8 @@
 * No55 [2017 word embedding methods in topic segmentation] 找到这个关键词以来看的第一篇文章，原来在2017之前topic segmentation还那么落后的吗？总之看了论文的abstract，Overview on topic segmentation这一部分还可以，可以作为以后论文的参照。1. 没有用到神经网络的 2. 就连词语变换都是用的传统方法，连word2vec都没有用。
 * No56 [2019 Sector](https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00261) 去年的论文，应该是最有参考价值的了。基本看了一遍，步骤大概是，1）用word2vec+distributional sentence representation来建模句子 2）用双向LSTM来建模Topic 3）classfication，用固定数量的外部标签来判断正确与否，softmax+onehot 4）用每个句子的分类准确度来判断分数。
 * [2015/6 Pointer networks] 说实话一直对这个模型的灵活性很佩服，可是现在（2021/1/4）因为用到所以重读了一遍发现: 1) 原本的精度就不高（train50，test50，精度72.6%） 2）他们测试的时候限制了输出数量，所以能跟LSTM作对比
+* [2015/11 order matters](https://arxiv.org/abs/1511.06391) 
+  * Q： 将输入数据的顺序打乱再训练，就能够提升精度么？
 
 ### Open-ended Generation
 
