@@ -33,6 +33,7 @@
   * Q： 将输入数据的顺序打乱再训练，就能够提升精度么？
   * A: 是的，主要是鼓励片段(短期)依赖，可以想象，使优化变得更加容易[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
   - 看了前半部分，发现它的reader完全就是个transformer，我估计tf有引用这个文献，居然没有。不过问题就来了，既然顺序不重要，那么position embedding有什么意义？
+* [2020 ACL A Joint Model for Document Segmentation and Segment Labeling](https://www.aclweb.org/anthology/2020.acl-main.29/) 使用joint loss(segment + labeling)可以提高segment的精度。还有用到IOB tagging。是Sector的一个进阶尝试，因为他们在整所以labeling和我无关。
 
   
 ### Open-ended Generation
