@@ -39,3 +39,8 @@
 ### Open-ended Generation
 
 * [Neural Text Generation in Stories Using Entity Representations as Context] (https://vimeo.com/277672801) 有视频，可以
+
+
+### Common
+
+* [Understanding deep learning requires rethinking generalization] （引用数量蛮多的，主要论点就是规范化可以提高效率但不是必要的）
