@@ -10,3 +10,10 @@
 - [ ] Towards principled unsupervised learning（被引数比较少，大意是引入了一个新的loss function，可以提高非监督学习的精度；看一下没准能启发非监督学习）
 - [ ] Matching networks for one shot learning （从少量数据学习，提出的学习方法非常有意思；优先学习，一是因为它自信满满，二是因为能提高迭代速度）
 - [ ] Contextual lstm (clstm) models for large scale nlp tasks (不管怎样，提到了topic，必看不可)
+- [ ] Google's neural machine translation system: Bridging the gap between human and machine translation (虽然是机器翻译，但是至少是S2S，而且是大规模成功的系统；更加重要的是用了coverage loss function，这个可以看一下引了什么前置研究)
+- [ ] Neural discrete representation learning　（用VAE整离散化表示）
+- [ ] Bayesian recurrent neural networks (贝叶斯RNN，似乎能减少大量参数量和提高训练精度；因为我是用BiLSTM所以后续优化可能会用到这个)
+- [ ] A hierarchical latent variable encoder-decoder model for generating dialogues (群友推荐的，看看；虽然是问答，但是跟NLG相关)
+- [ ] Representation learning with contrastive predictive coding (预测接下来会出现的序列，就会学习到一个……；其实我不是很懂，不过很多人引用就考虑看看吧，是VAE一系的)
+- [ ] Universal transformers (将RNN和TF的优点结合，必看)
+- [ ] Deep Sets ()
