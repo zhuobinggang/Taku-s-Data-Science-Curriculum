@@ -45,3 +45,4 @@
 ### Common
 
 * [Understanding deep learning requires rethinking generalization] （引用数量蛮多的，主要论点就是规范化可以提高效率但不是必要的）
+* [Google: Long Range Arena(2020)] 一个评判标准，本来像用着试试的后来发现它集成了太多东西，JAX啥的，tensorflow我不用，就算了吧。但是从结果上可以知道一点： 要速度用Performer，要性能用bigbird或者普通TF。
