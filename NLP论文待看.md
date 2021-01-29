@@ -15,5 +15,9 @@
 - [ ] Bayesian recurrent neural networks (贝叶斯RNN，似乎能减少大量参数量和提高训练精度；因为我是用BiLSTM所以后续优化可能会用到这个)
 - [ ] A hierarchical latent variable encoder-decoder model for generating dialogues (群友推荐的，看看；虽然是问答，但是跟NLG相关)
 - [ ] Representation learning with contrastive predictive coding (预测接下来会出现的序列，就会学习到一个……；其实我不是很懂，不过很多人引用就考虑看看吧，是VAE一系的)
+- [ ] Deep Sets
+- [X] Text Segmentation by Cross Segment Attention
+- [ ] Toward fast and accurate neural discourse segmentation (LSTM+CRF+ELMO)
+- [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
+- [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
 - [ ] Universal transformers (将RNN和TF的优点结合，必看)
-- [ ] Deep Sets ()
