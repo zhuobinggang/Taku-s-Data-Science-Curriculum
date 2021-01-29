@@ -21,4 +21,4 @@
 - [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
 - [ ] Universal transformers (将RNN和TF的优点结合，必看)
-- [ ] Long range arena (Doing)
+- [X] Long range arena
