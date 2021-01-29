@@ -23,3 +23,4 @@
 - [ ] Universal transformers (将RNN和TF的优点结合，必看)
 - [X] Long range arena
 - [ ] What Do Position Embeddings Learn (为了实验vanila TF，快速过一遍)
+- [ ] Convolutional sequence to sequence learning. （在S2S上使用卷积，2017，可以看，主要是pos embedding）
