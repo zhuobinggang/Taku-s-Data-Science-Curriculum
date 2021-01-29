@@ -22,3 +22,4 @@
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
 - [ ] Universal transformers (将RNN和TF的优点结合，必看)
 - [X] Long range arena
+- [ ] What Do Position Embeddings Learn (为了实验vanila TF，快速过一遍)
