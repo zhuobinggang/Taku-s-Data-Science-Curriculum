@@ -21,6 +21,8 @@
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
 - [ ] Convolutional sequence to sequence learning. （在S2S上使用卷积，2017，可以看，主要是pos embedding）
 - [ ] Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
+- [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
+- [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 
 
 ### Done
