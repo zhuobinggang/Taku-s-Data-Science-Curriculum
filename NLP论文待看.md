@@ -19,7 +19,6 @@
 - [ ] Toward fast and accurate neural discourse segmentation (LSTM+CRF+ELMO)
 - [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
-- [ ] Universal transformers (将RNN和TF的优点结合，必看)
 - [ ] Convolutional sequence to sequence learning. （在S2S上使用卷积，2017，可以看，主要是pos embedding）
 - [ ] Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
 
@@ -31,3 +30,4 @@
 - [X] What Do Position Embeddings Learn (为了实验vanila TF，快速过一遍)
 - [X] A SIMPLE BUT TOUGH TO BEAT BASELINE FOR SENTENCE EMBEDDINGS (BERT一亿参数太慢了，看看要不要用word2vec来整) (唯一明白的就是自己看不懂统计学方法，你妈的有神经网络还要个鸡巴统计学啊，所以才会被bert打的要死啊，看看bert有没有用到word2vec再说。。后续直接用RNN)
 - [X] Adaptive Computation Time for Recurrent Neural Networks (在每个timestep，再纵向运算1到n次，相当于可以多思考一会儿。大概概念就是这样，但是式子有些麻烦就没看)
+- [X] Universal transformers (将RNN和TF的优点结合，必看) （根本不是我想的那样，就是ACT在TF上的应用，草）
