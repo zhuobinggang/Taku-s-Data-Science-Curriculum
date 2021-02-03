@@ -1,4 +1,4 @@
-### TODO
+### 论文待看
 
 - [ ] Generating sentences from a continuous space （因为和我之前设想的很像。只是如果可行也和我无关，因为我不整generation）
 - [ ] Recurrent neural network regularization （RNN Regularzation，dropout不能很好的working在RNN里，不知道pytorch的rnn有没有整合这个技术，如果没有我可以自己编码进去）
@@ -24,3 +24,5 @@
 - [X] Long range arena
 - [X] What Do Position Embeddings Learn (为了实验vanila TF，快速过一遍)
 - [ ] Convolutional sequence to sequence learning. （在S2S上使用卷积，2017，可以看，主要是pos embedding）
+- [ ] A SIMPLE BUT TOUGH TO BEAT BASELINE FOR SENTENCE EMBEDDINGS (BERT一亿参数太慢了，看看要不要用word2vec来整)
+- [ ] Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
