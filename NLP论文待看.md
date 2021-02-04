@@ -23,6 +23,9 @@
 - [ ] Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
 - [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
+- [ ] Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
+- [ ] Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2)
+- [ ] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3)
 
 
 ### Done
