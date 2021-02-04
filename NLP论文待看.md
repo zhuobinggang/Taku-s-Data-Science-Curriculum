@@ -30,6 +30,8 @@
   - [ ] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿)
   - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
   - [ ] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
+- [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
+
 
 
 ### Done
