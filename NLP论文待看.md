@@ -24,8 +24,9 @@
 - [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 - [ ] Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
-- [ ] Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2)
+~~- [ ] Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择) ~~
 - [ ] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3)
+- [ ] Transformer-XL 应该是我想要找的了 (解决长序列问题 No.4)
 
 
 ### Done
