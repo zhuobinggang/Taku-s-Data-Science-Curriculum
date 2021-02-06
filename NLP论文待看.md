@@ -27,7 +27,7 @@
 - [ ] ~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择) ~~
 - [ ] Transformer-XL 应该是我想要找的了 (解决长序列问题 No.4)
 - [ ] 解剖Transformer
-  - [ ] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿)
+  - [X] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿) (周六花了一天肝完，必须说是受益匪浅，核函数什么的补全了，然后decoder的位置embedding也明白多了，但是这只是一个节点，接下来看RNN TF)
   - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
   - [ ] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
