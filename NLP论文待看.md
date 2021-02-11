@@ -33,7 +33,6 @@
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer ()
 
-
 ### Done
 
 - [X] Text Segmentation by Cross Segment Attention
@@ -42,3 +41,5 @@
 - [X] A SIMPLE BUT TOUGH TO BEAT BASELINE FOR SENTENCE EMBEDDINGS (BERT一亿参数太慢了，看看要不要用word2vec来整) (唯一明白的就是自己看不懂统计学方法，你妈的有神经网络还要个鸡巴统计学啊，所以才会被bert打的要死啊，看看bert有没有用到word2vec再说。。后续直接用RNN)
 - [X] Adaptive Computation Time for Recurrent Neural Networks (在每个timestep，再纵向运算1到n次，相当于可以多思考一会儿。大概概念就是这样，但是式子有些麻烦就没看)
 - [X] Universal transformers (将RNN和TF的优点结合，必看) （根本不是我想的那样，就是ACT在TF上的应用，草）
+- [X] What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties (相当不错一个解剖研究，facebook整的，主要是看看那几个probing task，不知道会有什么)
+
