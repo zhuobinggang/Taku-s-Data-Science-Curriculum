@@ -32,6 +32,7 @@
   - [X] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
+- [ ] GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding (怒看，直接把facebook那个探测给翻了)
 
 ### Done
 
