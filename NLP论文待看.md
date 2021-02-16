@@ -32,7 +32,7 @@
   - [X] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
-- [ ] GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding (怒看，直接把facebook那个探测给翻了)
+
 
 ### Done
 
@@ -44,3 +44,4 @@
 - [X] Universal transformers (将RNN和TF的优点结合，必看) （根本不是我想的那样，就是ACT在TF上的应用，草）
 - [X] What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties (相当不错一个解剖研究，facebook整的，主要是看看那几个probing task，不知道会有什么)
 - [X] Probing Neural Dialog Models for Conversational Understanding (21.2.16) （emm，没有什么突出成果。思考：首先我认为句子跟embedding跟QA是有很大联系的，所以第一算是了解了一些目前存在的QA Dataset，GLUE里边可以找到常识推理的数据集。然后思考可以往日语sentence probing方向发展一下）
+- [X] GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding (怒看，直接把facebook那个探测给翻了) (21.2.16) 只有三页，主要是有线上bench mark，要学会用起来
