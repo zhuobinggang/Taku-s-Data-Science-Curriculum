@@ -23,14 +23,14 @@
 - [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 - [ ] Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
-~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择)~~
+- ~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择)~~
 - [ ] Transformer-XL 应该是我想要找的了 (解决长序列问题 No.4)
 - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
 - [ ] 关于句子embedding
   - [ ] Skip Thought
-  - [ ] paragraph vector
+  - [ ] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding)
   - [ ] Generating sentences from a continuous space （因为和我之前设想的很像。只是如果可行也和我无关，因为我不整generation）
 
 ### GAN vs VAE
