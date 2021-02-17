@@ -1,6 +1,5 @@
 ### Todo
 
-- [ ] Generating sentences from a continuous space （因为和我之前设想的很像。只是如果可行也和我无关，因为我不整generation）
 - [ ] Recurrent neural network regularization （RNN Regularzation，dropout不能很好的working在RNN里，不知道pytorch的rnn有没有整合这个技术，如果没有我可以自己编码进去）
 - [ ] Distilling the knowledge in a neural network（将多个模型集中到一个模型，不过这个是收尾时候的工作了）
 - [ ] Convolutional, long short-term memory, fully connected deep neural networks（CLDNN，比起分开的CNN，LSTM，DNN要高出4～6%的精度；要说能不能考虑当然是能考虑，只是作者必然也已经考虑了就是）
@@ -24,18 +23,20 @@
 - [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 - [ ] Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
-- [ ] ~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择) ~~
+~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择)~~
 - [ ] Transformer-XL 应该是我想要找的了 (解决长序列问题 No.4)
-- [ ] 解剖Transformer
-  - [X] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿) (周六花了一天肝完，必须说是受益匪浅，核函数什么的补全了，然后decoder的位置embedding也明白多了，但是这只是一个节点，接下来看RNN TF)
-  - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
-  - [X] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
+- [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
+- [ ] 关于句子embedding
+  - [ ] Skip Thought
+  - [ ] paragraph vector
+  - [ ] Generating sentences from a continuous space （因为和我之前设想的很像。只是如果可行也和我无关，因为我不整generation）
 
 ### GAN vs VAE
 
 - [ ] 必须被填补的空白领域
+
 
 ### Done
 
@@ -48,3 +49,6 @@
 - [X] What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties (相当不错一个解剖研究，facebook整的，主要是看看那几个probing task，不知道会有什么)
 - [X] Probing Neural Dialog Models for Conversational Understanding (21.2.16) （emm，没有什么突出成果。思考：首先我认为句子跟embedding跟QA是有很大联系的，所以第一算是了解了一些目前存在的QA Dataset，GLUE里边可以找到常识推理的数据集。然后思考可以往日语sentence probing方向发展一下）
 - [X] GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding (怒看，直接把facebook那个探测给翻了) (21.2.16) 只有三页，主要是有线上bench mark，要学会用起来
+- [X] 解剖Transformer
+  - [X] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿) (周六花了一天肝完，必须说是受益匪浅，核函数什么的补全了，然后decoder的位置embedding也明白多了，但是这只是一个节点，接下来看RNN TF)
+  - [X] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
