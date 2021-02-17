@@ -30,7 +30,7 @@
 - [ ] Set Transformer
 - [ ] 关于句子embedding
   - [ ] Skip Thought
-  - [ ] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding)
+  - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
   - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
 
 ### GAN vs VAE
@@ -41,7 +41,7 @@
 
 ### Done
 
-- [X] Text Segmentation by Cross Segment Attention
+- [X] Text Segmentation by Cross Segment Attention 
 - [X] Long range arena
 - [X] What Do Position Embeddings Learn (为了实验vanila TF，快速过一遍)
 - [X] A SIMPLE BUT TOUGH TO BEAT BASELINE FOR SENTENCE EMBEDDINGS (BERT一亿参数太慢了，看看要不要用word2vec来整) (唯一明白的就是自己看不懂统计学方法，你妈的有神经网络还要个鸡巴统计学啊，所以才会被bert打的要死啊，看看bert有没有用到word2vec再说。。后续直接用RNN)
