@@ -36,6 +36,7 @@
 ### GAN vs VAE
 
 - [ ] 必须被填补的空白领域
+- [ ] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看)
 
 
 ### Done
