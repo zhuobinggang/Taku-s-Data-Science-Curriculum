@@ -33,6 +33,9 @@
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
 
+### GAN vs VAE
+
+- [ ] 必须被填补的空白领域
 
 ### Done
 
