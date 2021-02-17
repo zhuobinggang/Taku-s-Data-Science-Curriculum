@@ -31,7 +31,7 @@
 - [ ] 关于句子embedding
   - [ ] Skip Thought
   - [ ] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding)
-  - [ ] Generating sentences from a continuous space （因为和我之前设想的很像。只是如果可行也和我无关，因为我不整generation）
+  - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
 
 ### GAN vs VAE
 
