@@ -28,10 +28,6 @@
 - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
-- [ ] 关于句子embedding
-  - [ ] Skip Thought
-  - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
-  - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
 - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
 - [ ] Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
@@ -56,3 +52,7 @@
 - [X] 解剖Transformer
   - [X] A Unified Understanding of Transformer's Attention via the Lens of Kernel (核函数，SVN之类的是我的盲点阿) (周六花了一天肝完，必须说是受益匪浅，核函数什么的补全了，然后decoder的位置embedding也明白多了，但是这只是一个节点，接下来看RNN TF)
   - [X] Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention (解决长序列问题 No.3) (顺便从RNN角度解剖TF)
+- [X] 关于句子embedding
+  - [X] Skip Thought (确实很amazing，不知道和bert比会怎样)
+  - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
+  - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
