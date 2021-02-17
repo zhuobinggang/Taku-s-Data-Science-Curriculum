@@ -32,6 +32,7 @@
   - [ ] Skip Thought
   - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
   - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
+- [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
 
 ### GAN vs VAE
 
