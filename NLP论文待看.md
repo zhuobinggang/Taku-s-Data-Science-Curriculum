@@ -18,11 +18,10 @@
 - [ ] Toward fast and accurate neural discourse segmentation (LSTM+CRF+ELMO)
 - [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
-- [ ] Convolutional sequence to sequence learning. （在S2S上使用卷积，2017，可以看，主要是pos embedding）
-- [ ] Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
-- [ ] Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
-- [ ] Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
-- [ ] Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
+- [ ] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
+- [ ] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
+- [ ] !6 Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
+- [ ] !5 Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
 - ~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择)~~
 - [ ] Transformer-XL 应该是我想要找的了 (解决长序列问题 No.4)
 - [ ] On the relation- ship between self-attention and convolutional layers (CNN和TF的关系论)
@@ -30,12 +29,12 @@
 - [ ] Set Transformer
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
 - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
-- [ ] Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
+- [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
+- [ ] !1 How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert)
 
 ### GAN vs VAE
 
 - [ ] 必须被填补的空白领域
-- [ ] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看)
 
 
 ### Done
@@ -56,3 +55,4 @@
   - [X] Skip Thought (确实很amazing，不知道和bert比会怎样)
   - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
   - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
+- [X] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看) (可是这是面向音乐生成方向的)
