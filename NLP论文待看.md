@@ -18,7 +18,6 @@
 - [ ] Toward fast and accurate neural discourse segmentation (LSTM+CRF+ELMO)
 - [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
-- [ ] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对)
 - [ ] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] !6 Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 - [ ] !5 Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
@@ -28,7 +27,6 @@
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
-
 - [ ] BERT
   - [ ] Linguistic knowledge and transferability of contextual representations (2019 ACL，解析BERT NO.1)
   - [ ] What do you learn from context? probing for sentence structure in contextualized word representations. (解析BERT NO.2)
@@ -64,3 +62,4 @@
   - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
 - [X] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看) (可是这是面向音乐生成方向的)
 - [X] How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert) (非常有意思，但是为了验证『多语言模型更聪明』的假设，或许得回顾一下原来的论文)
+- [X] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对) (通过多语句平均池化可以获得static embedding，可是性能只是通过对比词语相似度来判断，关于static embedding还要进一步看其他论文)
