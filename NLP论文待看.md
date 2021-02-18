@@ -29,10 +29,15 @@
 - [ ] Set Transformer
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
 
-- [ ] 解析BERT
+- [ ] BERT
   - [ ] Linguistic knowledge and transferability of contextual representations (2019 ACL，解析BERT NO.1)
+  - [ ] What do you learn from context? probing for sentence structure in contextualized word representations. (解析BERT NO.2)
+  - [ ] Are sixteen heads really better than one? (解析BERT NO.3，关于不同的HEAD学到什么)
+  - [ ] What bert is not: Lessons from a new suite of psycholinguistic diagnostics for language models. (解析BERT NO.4，心理语言学？)
   - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
   - [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
+  - [ ] Bertscore: Evaluating text generation with bert. (解析BERT NO.5)
+  - [ ] How contextual are contextualized word representations? comparing the geometry of BERT, ELMo, and GPT-2 embeddings. （）
 
 ### GAN vs VAE
 
