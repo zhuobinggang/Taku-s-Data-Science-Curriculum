@@ -28,9 +28,11 @@
 - [ ] Adaptive Sampled Softmax with Kernel Based Sampling (Linear Transformer Bases)
 - [ ] Set Transformer
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
-- [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
-- [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
 
+- [ ] 解析BERT
+  - [ ] Linguistic knowledge and transferability of contextual representations (2019 ACL，解析BERT NO.1)
+  - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
+  - [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
 
 ### GAN vs VAE
 
