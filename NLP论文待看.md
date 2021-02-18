@@ -30,7 +30,7 @@
 - [ ] TransGAN: Two Transformers Can Make One Strong GAN (趋势)
 - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
 - [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
-- [ ] !1 How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert)
+
 
 ### GAN vs VAE
 
@@ -56,3 +56,4 @@
   - [X] Distributed Representations of Sentences and Documents (paragraph vector) (必看，static sentence embedding) (将word embedding冻结，然后通过预测来获得句子embedding，还行，可以考虑下，如果比LSTM更好的话，总是值得使用的)
   - [X] Generating sentences from a continuous space (感觉效果还可以，它好像catch住了很多语意信息，我觉得这个相当有潜力，是我的兴趣所向)
 - [X] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看) (可是这是面向音乐生成方向的)
+- [X] How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert) (非常有意思，但是为了验证『多语言模型更聪明』的假设，或许得回顾一下原来的论文)
