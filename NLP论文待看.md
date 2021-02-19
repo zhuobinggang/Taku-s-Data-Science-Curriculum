@@ -67,3 +67,4 @@
 - [X] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对) (通过多语句平均池化可以获得static embedding，可是性能只是通过对比词语相似度来判断，关于static embedding还要进一步看其他论文)
 - [X] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看） (一般般，没啥意思。主要知道了一个惊奇值Surprisal的概念，还有ENCOW数据集以及一些脑科学数据集，TF多层可以引入位置信息值得验证，让我想起排序项目)
 - [X] OpenAI CLIP: ConnectingText and Images (Paper Explained) (看的视频，太强了，虽然我不是做图像处理。主要问题点是，普通的classfier很容易将同标签内所有输入的差异都忘掉，这个本质问题在自然语言处理里也是存在的……真是)
+- [X] A Joint Model for Document Segmentation and Segment Labeling (Sector的后续文章，量子速读了主要是想知道他们怎么整joint loss，结果发现只是简单的相加)
