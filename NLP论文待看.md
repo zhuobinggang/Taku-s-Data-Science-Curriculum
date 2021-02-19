@@ -18,7 +18,6 @@
 - [ ] Toward fast and accurate neural discourse segmentation (LSTM+CRF+ELMO)
 - [ ] EDA: Easy data augmentation techniques for boosting performance on text classification tasks. (谷歌research说要实验的，那我也得看看把)
 - [ ] Does label smoothing mitigate label noise? (谷歌research说要实验的，那我也得看看把)
-- [ ] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看）
 - [ ] !6 Skip rnn: Learning to skip state updates in recurrent neural networks (关于神经网络的可能性)
 - [ ] !5 Compressive Transformers for Long-Range Sequence Modelling (Compressive Transformer, which compresses past memories for long-range sequence learning) (解决长序列问题 No.1)
 - ~~Generating Long Sequences with Sparse Transformers (似乎是一种特殊的 attention机制，将复杂度从n^2变成了比较低的，虽然比起线性还是差点。那我为什么不直接看线性？ 总之有兴趣的话可以看下。。) (解决长序列问题 No.2) (没必要看了因为Reformer是更好的选择)~~
@@ -35,7 +34,9 @@
   - [ ] BanglaBERT: Combating Embedding Barrier for Low-Resource Language Understanding (孟加拉语言bert vs 多语言bert；考虑用多语言bert来代替日语)
   - [ ] !4 Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling （稀疏数据bert，）
   - [ ] Bertscore: Evaluating text generation with bert. (解析BERT NO.5)
-  - [ ] How contextual are contextualized word representations? comparing the geometry of BERT, ELMo, and GPT-2 embeddings. （）
+  - [ ] How contextual are contextualized word representations? comparing the geometry of BERT, ELMo, and GPT-2 embeddings.
+- [ ] RNN 
+  - [ ] Lossy-Context Surprisal: An Information-Theoretic Model of Memory Effects in Sentence Processing. (关于认知科学，有对标TF的野心)
 
 ### GAN vs VAE
 
@@ -63,3 +64,4 @@
 - [X] Variational Recurrent Auto-Encoders (这个似乎很好实现，结合Generating sentences from a continuous space的图来看) (可是这是面向音乐生成方向的)
 - [X] How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert) (非常有意思，但是为了验证『多语言模型更聪明』的假设，或许得回顾一下原来的论文)
 - [X] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对) (通过多语句平均池化可以获得static embedding，可是性能只是通过对比词语相似度来判断，关于static embedding还要进一步看其他论文)
+- [X] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看） (一般般，没啥意思。主要知道了一个惊奇值Surprisal的概念，还有ENCOW数据集以及一些脑科学数据集，TF多层可以引入位置信息值得验证，让我想起排序项目)
