@@ -89,3 +89,5 @@
 - [X] [Understanding deep learning requires rethinking generalization] （引用数量蛮多的，主要论点就是规范化可以提高效率但不是必要的）
 - [X] [Google: Long Range Arena(2020)] 一个评判标准，本来像用着试试的后来发现它集成了太多东西，JAX啥的，tensorflow我不用，就算了吧。但是从结果上可以知道一点： 要速度用Performer，要性能用bigbird或者普通TF。
 - [X] [What Do Position Embeddings Learn] 就对我有用的结论来说，bert对绝对位置的分辨很差劲，它更多的关注masked word附近的词。然后一般情况下用sinusoid是最好的。
+- [X] AUTOMATED GENERATION OF MULTILINGUAL CLUSTERS FOR THE EVALUATION OF DISTRIBUTED REPRESENTATIONS (关于单词相似度检验的一些反思以及自动一种新的自动生成方案)
+- 
