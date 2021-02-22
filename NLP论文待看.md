@@ -66,5 +66,26 @@
 - [X] How multilingual is Multilingual BERT? (多语言BERT，看看能否替代日语bert) (非常有意思，但是为了验证『多语言模型更聪明』的假设，或许得回顾一下原来的论文)
 - [X] !2 Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings (contextualized representation -> static embedding， 我本来是想看看有没有加快bert的方法的，但是contextual注定是要fine-tune的吧。static embedding可以用来做通用embeding。。对) (通过多语句平均池化可以获得static embedding，可是性能只是通过对比词语相似度来判断，关于static embedding还要进一步看其他论文)
 - [X] !3 Comparing Transformers and RNNs on predicting human sentence processing data (RNN和TF的比较研究，有必要看，马上看） (一般般，没啥意思。主要知道了一个惊奇值Surprisal的概念，还有ENCOW数据集以及一些脑科学数据集，TF多层可以引入位置信息值得验证，让我想起排序项目)
-- [X] OpenAI CLIP: ConnectingText and Images (Paper Explained) (看的视频，太强了，虽然我不是做图像处理。主要问题点是，普通的classfier很容易将同标签内所有输入的差异都忘掉，这个本质问题在自然语言处理里也是存在的……真是)
+- [X] OpenAI CLIP: ConnectingText and Images (Paper Explained) (看的视频，太强了，虽然我不是做图像处理。主要问题点是，普通的classfier很容易将同标签内所有输入的差异都忘掉，这个本质问题在自然语言处理里也是存在的……真是) (TODO： 仔细想想没搞懂怎么生成不同标签)
 - [X] A Joint Model for Document Segmentation and Segment Labeling (Sector的后续文章，量子速读了主要是想知道他们怎么整joint loss，结果发现只是简单的相加)
+- [X] 2020/6 Learning To Classify Images Without Labels (Paper Explained) (一个新的clustering算法SCAN，在没有label的情况下都能达到很好的训练效果。主要流程是，首先用Transform来对图片做处理，然后用CNN来获取处理前后图片的latent representation，并努力缩减两者间的欧几里得距离，以此训练神经网络a。然后通过a把所有数据压缩到latent representation，以此弄成新的数据集，然后每个图片跟最邻近的5个图片作为一组用来训练神经网络b，b输出的结果是softmax，努力让结果一致就完了) (相当于一个变种VAE)
+- [X] [2016 Unsupervised learning of visual representations by solving jigsaw puzzles] 将图片切成小块，然后重新拼回来，自监督算法。主要是No50有用到。Q：难道不会只学到边缘贴合算法？
+- [X] Context Encoders: Feature Learning by Inpainting Inpainting跟AutoEncoder的区别在于后者是整块图片而前者只是图片中的一部分，他们称之为Context Encoder。主要是No50有用到，这个就是bert的灵感来源，我猜。
+- [X] 2016 Colorful Image Colorization 自监督，去色，上色。主要是No50有用到。问题是NLP怎么去掉颜色？
+- [X] No52 2018 Deep clustering for unsupervised learning of visual features，deep cluster之前大部分都是在固定的representation上使用k-means。facebook ai出品。
+- [X] No53 2020 Extractive Summarization as Text Matching，我的研究计划书的灵感来源，通过将句子的representation和整个document的相比较进行句子抽出。
+- [X] 2019 Sentence-bert 历史：过去的practice有用第一个token来作为输出或者用「bert embedding」的手法来获取sentence embedding，但是甚至比Glove embedding还要差。性能：计算10,000个句子的embedding要5秒，然后计算相似度0.01秒。实现：其中两个手法跟前面的practice一致，一个是cls，一个是mean，一个是max，共三个策略。）还得补triplet network。
+- [X] 2019/4 Neural Text Degeneration 1）自然语言理解质量高可是一旦生成就低质量是反直觉的 2）Decoding strategies alone have dramatical effect 3）提出了Necleus Sampling， （2021/1/4）做指针网络碰到了反复输出同个指针的问题，就到网上找seq2seq repeat，然后就找到这个，现在不知道有多少帮助，不过至少是影响力很大的一篇论文，然后我也确实在整decoding问题，然后指针网络和生成词语的区别其实就是动态非动态的区别，总该有帮助的，从最新的成果回溯总是好的，先看看吧。
+- [X] 2020/3 Decoding Strategies 只是博客，Beam Search可以看看
+- [X] 2018/4 World Models 因为每次都要调动simulator的话，训练会变得太昂贵（等等，这里用replay buff不就能解决了？），所以他们决定训练一个model去模仿simulator的逻辑。具体做法是VAE来压缩图片，这个只是优化用，用RNN来预测下一帧的动作才是重点。相当于对世界的逻辑建模
+- [X] 2020/8 REALM 其实我不是很懂这个，白看了，对这个不熟。总的来说就是把整个资料库用来pretrain一个document retriver，然后来回答问题。又是一个大突破只能这样说。应用方面我想想，首先要有一个完善，不变的资料库，话说真的是不能变么？也许不一定，emm，我还是不评价了
+- [X] No55 [2017 word embedding methods in topic segmentation] 找到这个关键词以来看的第一篇文章，原来在2017之前topic segmentation还那么落后的吗？总之看了论文的abstract，Overview on topic segmentation这一部分还可以，可以作为以后论文的参照。1. 没有用到神经网络的 2. 就连词语变换都是用的传统方法，连word2vec都没有用。
+- [X] No56 2019 Sector 去年的论文，应该是最有参考价值的了。基本看了一遍，步骤大概是，1）用word2vec+distributional sentence representation来建模句子 2）用双向LSTM来建模Topic 3）classfication，用固定数量的外部标签来判断正确与否，softmax+onehot 4）用每个句子的分类准确度来判断分数。
+- [X] [2015/6 Pointer networks] 说实话一直对这个模型的灵活性很佩服，可是现在（2021/1/4）因为用到所以重读了一遍发现: 1) 原本的精度就不高（train50，test50，精度72.6%） 2）他们测试的时候限制了输出数量，所以能跟LSTM作对比
+- [X] 2015/11 order matters Q： 将输入数据的顺序打乱再训练，就能够提升精度么？A: 是的，主要是鼓励片段(短期)依赖，可以想象，使优化变得更加容易Sequence to Sequence Learning with Neural Networks
+- [X] 2020 ACL A Joint Model for Document Segmentation and Segment Labeling 使用joint loss(segment + labeling)可以提高segment的精度。还有用到IOB tagging。是Sector的一个进阶尝试，因为他们在整所以labeling和我无关。
+- [X] [2020 Text Segmentation by Cross Segment Attention] Text Segmentation by Cross Segment Attention 谷歌的文本分割论文，将之前的模型全部打翻了。但是我发现他没有考虑到保留上次的分割点，难道这个不会有影响吗？
+- [X] [Neural Text Generation in Stories Using Entity Representations as Context] (https://vimeo.com/277672801) 有视频，可以
+- [X] [Understanding deep learning requires rethinking generalization] （引用数量蛮多的，主要论点就是规范化可以提高效率但不是必要的）
+- [X] [Google: Long Range Arena(2020)] 一个评判标准，本来像用着试试的后来发现它集成了太多东西，JAX啥的，tensorflow我不用，就算了吧。但是从结果上可以知道一点： 要速度用Performer，要性能用bigbird或者普通TF。
+- [X] [What Do Position Embeddings Learn] 就对我有用的结论来说，bert对绝对位置的分辨很差劲，它更多的关注masked word附近的词。然后一般情况下用sinusoid是最好的。
