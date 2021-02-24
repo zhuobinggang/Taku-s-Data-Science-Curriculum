@@ -14,6 +14,8 @@
 - [ ] 2017 Grammar variational autoencoder.
 - [ ] 2018 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合)
 - [X] 2018 A Style-Based Generator Architecture for Generative Adversarial Networks (Style gan，正在做)
+- [ ] CycleGAN
+- [ ] InfoGan
 
 ## Done 
 
