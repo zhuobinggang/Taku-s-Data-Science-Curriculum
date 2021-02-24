@@ -2,6 +2,7 @@
 
 - [ ] What do recurrent neural network gammars learn about syntax? (语法建模)
 - [ ] On Unifying Deep Generative Models (统一生成模型) (No1的后续论文)
+- [X] PIAGET’S STRUCTURALISM AND LINGUISTICS (Cool)
 
 #### VAE & GAN
 
