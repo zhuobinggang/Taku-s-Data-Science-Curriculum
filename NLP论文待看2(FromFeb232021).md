@@ -15,8 +15,8 @@
 - [ ] 2017 Grammar variational autoencoder.
 - [ ] 2018 Cite20 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合) 
 - [ ] CycleGAN
-- [ ] 2016 cite2572 InfoGan
-- [X] 2017 Cite1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
+- [X] 2016 cite2572 InfoGan
+- [ ] 2017 Cite1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
 
 ## Done 
 
