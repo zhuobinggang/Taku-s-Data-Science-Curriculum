@@ -13,10 +13,10 @@
 - [ ] 2018 A deep generative framework for paraphrase generation.
 - [ ] 2018 Syntactic manipulation for generating more diverse and interesting texts.
 - [ ] 2017 Grammar variational autoencoder.
-- [ ] 2018 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合)
+- [ ] 2018 Cite20 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合) 
 - [ ] CycleGAN
-- [ ] InfoGan
-- [X] Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
+- [ ] 2016 cite2572 InfoGan
+- [X] 2017 Cite1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
 
 ## Done 
 
