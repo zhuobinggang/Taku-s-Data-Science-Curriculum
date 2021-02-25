@@ -14,11 +14,12 @@
 - [ ] 2018 Syntactic manipulation for generating more diverse and interesting texts.
 - [ ] 2017 Grammar variational autoencoder.
 - [ ] 2018 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合)
-- [X] 2018 A Style-Based Generator Architecture for Generative Adversarial Networks (Style gan，正在做)
 - [ ] CycleGAN
 - [ ] InfoGan
+- [X] Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
 
 ## Done 
 
-1. Generating Sentences from Disentangled Syntactic and Semantic Spaces (居然是字节跳动的论文，主要是对潜在空间的z计算了一些辅助loss，以引入一些额外知识，老实说太复杂了我感觉应用前景不大)
-2. 2017 Toward controlled generation of text.  (text style transfer) (Adversarial Loss)
+- [X] 1. Generating Sentences from Disentangled Syntactic and Semantic Spaces (居然是字节跳动的论文，主要是对潜在空间的z计算了一些辅助loss，以引入一些额外知识，老实说太复杂了我感觉应用前景不大)
+- [X] 2. 2017 Toward controlled generation of text.  (text style transfer) (Adversarial Loss)
+- [ ] 3. 2018 A Style-Based Generator Architecture for Generative Adversarial Networks (Style gan，正在做) (需要前置： Arbitrary Style Transfer)
