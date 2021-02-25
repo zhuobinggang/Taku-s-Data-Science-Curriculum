@@ -17,6 +17,7 @@
 - [ ] CycleGAN
 - [X] 2016 cite2572 InfoGan
 - [ ] 2017 Cite1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization （No3的前置）
+- [ ] 2016 8604 Unsupervised representation learning with deep convolutional generative adversarial networks (图片空间向量操作)
 
 ## Done 
 
