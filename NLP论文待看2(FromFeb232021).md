@@ -14,11 +14,11 @@
 - [ ] 2016 8604 Unsupervised representation learning with deep convolutional generative adversarial networks (图片空间向量操作)
 
 #### NLP
-- [ ] 2018 Disentangled representation learning for text style transfer. (text style transfer) 
-- [ ] 2018 Style transfer in text: Exploration and evaluation. (text style transfer)
-- [ ] 2018 Syntax-directed variational autoencoder for structured data. (impose context-free grammars (CFGs as hard constraints in the VAE decoder)
-- [ ] 2018 A deep generative framework for paraphrase generation.
-- [ ] 2018 Syntactic manipulation for generating more diverse and interesting texts.
+- [ ] 2018 89 Disentangled representation learning for text style transfer. (text style transfer) 
+- [ ] 2018 254 Style transfer in text: Exploration and evaluation. (text style transfer)
+- [ ] 2018 154 Syntax-directed variational autoencoder for structured data. (impose context-free grammars (CFGs as hard constraints in the VAE decoder)
+- [ ] 2018 123 A deep generative framework for paraphrase generation.
+- [ ] 2018 11 Syntactic manipulation for generating more diverse and interesting texts.
 - [ ] 2017 374 Grammar variational autoencoder.
 
 ## Done 
