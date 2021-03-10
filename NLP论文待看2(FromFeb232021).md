@@ -2,8 +2,9 @@
 
 - [ ] What do recurrent neural network gammars learn about syntax? (语法建模)
 - [ ] On Unifying Deep Generative Models (统一生成模型) (No1的后续论文)
-- [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度)
+
 - [ ] Learning Transferable Visual Models From Natural Language Supervision (Open AI CLIP)
+- [ ] Self-supervised learning: Generative or contrastive (Self-supervised Explore)
 
 ### VAE & GAN
 
@@ -33,3 +34,4 @@
 - [X] #3 2016 cite2572 InfoGan
   - [X] #3.1 Understanding Mutual Information and its Use in InfoGAN
 - [X] PIAGET’S STRUCTURALISM AND LINGUISTICS (Cool)
+- [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
