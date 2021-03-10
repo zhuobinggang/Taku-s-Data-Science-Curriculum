@@ -3,6 +3,7 @@
 - [ ] What do recurrent neural network gammars learn about syntax? (语法建模)
 - [ ] On Unifying Deep Generative Models (统一生成模型) (No1的后续论文)
 - [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度)
+- [ ] Learning Transferable Visual Models From Natural Language Supervision (Open AI CLIP)
 
 ### VAE & GAN
 
