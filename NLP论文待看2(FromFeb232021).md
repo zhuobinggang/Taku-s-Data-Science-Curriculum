@@ -12,7 +12,7 @@
 ### VAE & GAN
 
 #### CV
-- [X] 0 TransGAN (用来代替#99，毕竟我完全不想用CNN)
+- [ ] 0 TransGAN (用来代替#99，毕竟我完全不想用CNN)
   - [ ] 2016 2315 Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network (#100的前置)
   - [ ] 2016 5178 Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network （#101相关）
 - [ ] 2018 20 Generative Adversarial Interpolative Autoencoding (GAIA) (线性插值，VAE和GAN的融合) 
@@ -20,6 +20,7 @@
 - [ ] 2018 1717 A Style-Based Generator Architecture for Generative Adversarial Networks (Style gan，正在做) (需要前置： Arbitrary Style Transfer)
 - [ ] 2017 1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (STleGan 前置)
 - [ ] #99 2016 8604 Unsupervised representation learning with deep convolutional generative adversarial networks (图片空间向量操作)
+- [ ] 2019 44 ON THE RELATIONSHIP BETWEEN AND CONVOLUTIONAL LAYERS (Doing)
 
 
 #### NLP
