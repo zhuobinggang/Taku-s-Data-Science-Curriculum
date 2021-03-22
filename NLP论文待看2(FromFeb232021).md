@@ -5,6 +5,10 @@
 - [ ] Learning Transferable Visual Models From Natural Language Supervision (Open AI CLIP)
 - [ ] Self-supervised learning: Generative or contrastive (Self-supervised Explore)
 
+### Transformer
+
+- [ ] 2019 56 Compressive Transformer (谷歌的长距离TF) (Doing)
+
 ### BERT
 
 - [X] What does BERT learn about the structure of language? (用之前看过的那个probing任务分析BERT)
@@ -20,7 +24,7 @@
 - [ ] 2018 1717 A Style-Based Generator Architecture for Generative Adversarial Networks (Style gan，正在做) (需要前置： Arbitrary Style Transfer)
 - [ ] 2017 1084 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (STleGan 前置)
 - [ ] #99 2016 8604 Unsupervised representation learning with deep convolutional generative adversarial networks (图片空间向量操作)
-- [ ] 2019 44 ON THE RELATIONSHIP BETWEEN AND CONVOLUTIONAL LAYERS (Doing)
+- [X] 2019 44 ON THE RELATIONSHIP BETWEEN AND CONVOLUTIONAL LAYERS (现在CNN用爽了，不用自找麻烦了)
 
 
 #### NLP
