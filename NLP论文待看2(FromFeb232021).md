@@ -7,11 +7,12 @@
 
 ### Transformer
 
-- [ ] 2019 56 Compressive Transformer (谷歌的长距离TF) (Doing)
+- [X] 2019 56 Compressive Transformer (谷歌的长距离TF) (通用性我感觉比较强，还有一个非常有意思的loss函数，可以处理长程依赖，受益匪浅) 
 
 ### BERT
 
 - [X] What does BERT learn about the structure of language? (用之前看过的那个probing任务分析BERT)
+- [ ] BERT-enhanced Relational Sentence Ordering Network (Doing... 在做句子排序的先行)
 
 ### VAE & GAN
 
