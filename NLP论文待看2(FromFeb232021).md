@@ -12,7 +12,7 @@
 ### BERT
 
 - [X] What does BERT learn about the structure of language? (用之前看过的那个probing任务分析BERT)
-- [ ] BERT-enhanced Relational Sentence Ordering Network (Doing... 在做句子排序的先行)
+- [X] BERT-enhanced Relational Sentence Ordering Network (收获不少)
 
 ### VAE & GAN
 
