@@ -15,6 +15,7 @@
 - [X] BERT-enhanced Relational Sentence Ordering Network (收获不少)
 - [ ] BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance (提高性能)
   - [ ] Attentive mimicking: Better word embeddings by attending to informative contexts. (AM，不知道能不能对TF有帮助，稀有单词的对应方式)
+  - [ ] Learning Semantic Representations for Novel Words (Doing...)
 - [ ] How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope (看看不会有坏处的，解剖bert)
 - [ ] What Does BERT with Vision Look At? (看看不会有坏处)
 - [ ] Understanding Advertisements with BERT 
