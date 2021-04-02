@@ -17,9 +17,10 @@
   - [ ] Attentive mimicking: Better word embeddings by attending to informative contexts. (AM，不知道能不能对TF有帮助，稀有单词的对应方式)
   - [X] Learning Semantic Representations for Novel Words (还不错，但是主要是用平均上下文的方式，而且首先要有上下文……而且日语的表面信息不像英语那样好拿) 
 - [ ] How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope (看看不会有坏处的，解剖bert)
-- [ ] What Does BERT with Vision Look At? (看看不会有坏处)
+- [X] What Does BERT with Vision Look At? (看看不会有坏处) (还行，视觉BERT还蛮有意思，可是怎么输出注意力区域我是不能理解的，毕竟不是做视觉和跨领域)
 - [ ] Understanding Advertisements with BERT 
 - [ ] Should You Fine-Tune BERT for Automated Essay Scoring? (关于fine tune的问题)
+  - [ ] To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (关于fine tune的问题) (Doing...)
 - [ ] A Novel Hierarchical BERT Architecture for Sarcasm Detection (新架构？)
 - [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
 
