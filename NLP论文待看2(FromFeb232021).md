@@ -20,9 +20,9 @@
 - [X] What Does BERT with Vision Look At? (看看不会有坏处) (还行，视觉BERT还蛮有意思，可是怎么输出注意力区域我是不能理解的，毕竟不是做视觉和跨领域)
 - [ ] Understanding Advertisements with BERT 
 - [ ] Should You Fine-Tune BERT for Automated Essay Scoring? (关于fine tune的问题)
-  - [ ] To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (关于fine tune的问题) 
+  - [ ] To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (关于fine tune的问题)  (Doing...)
   - [ ] Do Attention Heads in BERT Track Syntactic Dependencies?
-  - [ ] What Does BERT Look at? An Analysis of BERT’s Attention (解剖BERT) (Doing...)
+  - [ ] What Does BERT Look at? An Analysis of BERT’s Attention (解剖BERT) 
 - [ ] A Novel Hierarchical BERT Architecture for Sarcasm Detection (新架构？)
 - [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
 
