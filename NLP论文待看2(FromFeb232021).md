@@ -26,6 +26,9 @@
 - [ ] A Novel Hierarchical BERT Architecture for Sarcasm Detection (新架构？)
 - [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
 
+### 评估与分析
+- [ ] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段)
+
 ### VAE & GAN
 
 #### CV
