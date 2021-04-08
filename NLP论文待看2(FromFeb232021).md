@@ -27,7 +27,8 @@
 - [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
 
 ### 评估与分析
-- [ ] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段)
+- [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
+  - [X] [DL輪読会]Opening the Black Box of Deep Neural Networks via Information (很大收获，隐藏层的意义： 增加隐藏层，泛化=压缩的速度加快)
 
 ### VAE & GAN
 
