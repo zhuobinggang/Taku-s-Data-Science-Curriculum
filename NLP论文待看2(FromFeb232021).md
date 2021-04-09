@@ -20,7 +20,7 @@
 - [ ] How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope (看看不会有坏处的，解剖bert)
 - [X] What Does BERT with Vision Look At? (看看不会有坏处) (还行，视觉BERT还蛮有意思，可是怎么输出注意力区域我是不能理解的，毕竟不是做视觉和跨领域)
 - [ ] Understanding Advertisements with BERT 
-- [ ] Should You Fine-Tune BERT for Automated Essay Scoring? (关于fine tune的问题) (Doing...)
+- [X] Should You Fine-Tune BERT for Automated Essay Scoring? (关于fine tune的问题) (没什么收获，他们试了feature extraction，结果比较差，没意义。不过推荐的几个论文倒是蛮有意思，看下边的BERTology)
   - [X] To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks (关于fine tune的问题)  (证据证明BERT同时建模句子对的效果更好) (交互信息评估仪的应用)
   - [ ] Do Attention Heads in BERT Track Syntactic Dependencies? 
   - [X] What Does BERT Look at? An Analysis of BERT’s Attention (解剖BERT) (斯坦福大学+脸书的论文，但是老实说没有什么收获，非要说的话 #1 SEP像是一个垃圾桶。 #2 CLS确实起到统合作用) （也许我后续要考虑带上两个SEP……）
