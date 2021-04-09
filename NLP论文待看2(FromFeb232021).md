@@ -26,6 +26,12 @@
   - [X] What Does BERT Look at? An Analysis of BERT’s Attention (解剖BERT) (斯坦福大学+脸书的论文，但是老实说没有什么收获，非要说的话 #1 SEP像是一个垃圾桶。 #2 CLS确实起到统合作用) （也许我后续要考虑带上两个SEP……）
 - [ ] A Novel Hierarchical BERT Architecture for Sarcasm Detection (新架构？)
 - [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
+- [ ] BERT-ology
+  - [ ] 2019 321 Bert rediscovers the classical nlp pipeline. 
+  - [ ] 2019 240 What does bert learn about the structure of language?
+  - [ ] 2019 140 Revealing the Dark Secrets of BERT
+  - [ ] 2020 153 A Primer in BERTology: What we know about how BERT works?
+- [ ] Simple BERT Models for Relation Extraction and Semantic Role Labeling (Waiting...)(因为使用了多个SEP，需要赶紧看) 
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
