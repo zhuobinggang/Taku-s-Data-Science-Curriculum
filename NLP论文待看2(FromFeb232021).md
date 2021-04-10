@@ -17,7 +17,7 @@
 - [ ] BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance (提高性能)
   - [ ] Attentive mimicking: Better word embeddings by attending to informative contexts. (AM，不知道能不能对TF有帮助，稀有单词的对应方式)
   - [X] Learning Semantic Representations for Novel Words (还不错，但是主要是用平均上下文的方式，而且首先要有上下文……而且日语的表面信息不像英语那样好拿) 
-- [ ] How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope (看看不会有坏处的，解剖bert)
+- [ ] How does BERT’s attention change when you fine-tune? An analysis methodology and a case study in negation scope (看看不会有坏处的，解剖bert) (Doing...)
 - [X] What Does BERT with Vision Look At? (看看不会有坏处) (还行，视觉BERT还蛮有意思，可是怎么输出注意力区域我是不能理解的，毕竟不是做视觉和跨领域)
 - [ ] Understanding Advertisements with BERT 
 - [X] Should You Fine-Tune BERT for Automated Essay Scoring? (关于fine tune的问题) (没什么收获，他们试了feature extraction，结果比较差，没意义。不过推荐的几个论文倒是蛮有意思，看下边的BERTology)
@@ -31,7 +31,7 @@
   - [ ] 2019 240 What does bert learn about the structure of language?
   - [ ] 2019 140 Revealing the Dark Secrets of BERT
   - [ ] 2020 153 A Primer in BERTology: What we know about how BERT works?
-- [ ] Simple BERT Models for Relation Extraction and Semantic Role Labeling (Waiting...)(因为使用了多个SEP，需要赶紧看) 
+- [X] Simple BERT Models for Relation Extraction and Semantic Role Labeling (因为使用了多个SEP，需要赶紧看) (不是想象中的用法。不过还算是有收获，让BERT去学习元语言，居然也能正常运作)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
