@@ -37,6 +37,7 @@
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
   - [X] [DL輪読会]Opening the Black Box of Deep Neural Networks via Information (很大收获，隐藏层的意义： 增加隐藏层，泛化=压缩的速度加快)
 - [ ] `Trending` TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing (一个更好的评估方法，必看)
+- [ ] Attention is not not Explanation (可以理解成一个分析方法的汇总) (Waiting...)
 
 ### VAE & GAN
 
