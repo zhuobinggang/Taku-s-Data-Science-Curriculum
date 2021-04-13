@@ -1,0 +1,7 @@
+- [ ] 2019 26 Vision-based Navigation Using Deep Reinforcement Learning
+  - [ ] 2018 183 Building generalizable agents with a realistic and rich 3d environment
+  - [ ] 2016 732 Reinforcement learning with unsupervised auxiliary tasks
+  - [ ] 2016 553 Learning to navigate in complex environments
+  - [ ] 2017 407 Scalable trust-region method for deep reinforcement learning using kronecker- factored approximation
+  - [ ] 2016 4700 Asynchronous methods for deep reinforcement learning
+  - [ ] 
