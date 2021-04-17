@@ -4,4 +4,4 @@
   - [ ] 2016 553 Learning to navigate in complex environments
   - [ ] 2017 407 Scalable trust-region method for deep reinforcement learning using kronecker- factored approximation
   - [ ] 2016 4700 Asynchronous methods for deep reinforcement learning
-  - [ ] 
+- [ ] 2019 2 Explore, approach, and terminate: Evaluating subtasks in active visual object search based on deep reinforcement learning (Doing...写计划书) 
