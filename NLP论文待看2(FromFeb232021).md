@@ -32,7 +32,7 @@
   - [ ] 2020 153 A Primer in BERTology: What we know about how BERT works?
 - [X] Simple BERT Models for Relation Extraction and Semantic Role Labeling (因为使用了多个SEP，需要赶紧看) (不是想象中的用法。不过还算是有收获，让BERT去学习元语言，居然也能正常运作)
 - [X] Leveraging BERT for Extractive Text Summarization on Lectures (BERT做抽出要约。看能不能想到改善的方法？主要思考新方向) 
-- [ ] Understanding Advertisements with BERT (Doing...)
+- [X] Understanding Advertisements with BERT (单纯用字幕就能理解图片……确实make sense)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
@@ -62,6 +62,12 @@
 - [ ] 2018 123 A deep generative framework for paraphrase generation.
 - [ ] 2018 11 Syntactic manipulation for generating more diverse and interesting texts.
 - [ ] 2017 374 Grammar variational autoencoder.
+
+#### CV NLP 交叉领域
+- [ ] Beyond Visual Semantics: Exploring the Role of Scene Text in Image Understanding
+
+#### 遗产
+- [ ] A Formal Hierarchy of RNN Architectures (饱和RNN理论，证伪LSTM)
 
 ## Done 
 
