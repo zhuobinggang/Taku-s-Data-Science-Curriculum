@@ -4,4 +4,6 @@
   - [ ] 2016 553 Learning to navigate in complex environments
   - [ ] 2017 407 Scalable trust-region method for deep reinforcement learning using kronecker- factored approximation
   - [ ] 2016 4700 Asynchronous methods for deep reinforcement learning
-- [ ] 2019 2 Explore, approach, and terminate: Evaluating subtasks in active visual object search based on deep reinforcement learning (Doing...写计划书) 
+- [X] 1) 2019 2 Explore, approach, and terminate: Evaluating subtasks in active visual object search based on deep reinforcement learning (Doing...写计划书) 
+- [ ] 2) 2018 11 Reinforcement Learning in Computer Vision (为什么要结合CV和RL，一个短论，写计划书要看)
+- [X] 3) 2017 105 A Dataset for Developing and Benchmarking Active Vision (数据集)
