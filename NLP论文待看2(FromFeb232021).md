@@ -35,7 +35,7 @@
 - [X] Understanding Advertisements with BERT (单纯用字幕就能理解图片……确实make sense)
 - [X] Fine-tune BERT for Extractive Summarization （还行，不过好像对BERT的）
 - [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
-- [ ] Applying BERT to Document Retrieval with Birch (Doing... 给别人构思研究计划用)
+- [X] Applying BERT to Document Retrieval with Birch (和想象的不一样，IR似乎是搜索引擎相关的东西，而不是制表)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
