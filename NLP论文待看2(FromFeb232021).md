@@ -33,6 +33,7 @@
 - [X] Simple BERT Models for Relation Extraction and Semantic Role Labeling (因为使用了多个SEP，需要赶紧看) (不是想象中的用法。不过还算是有收获，让BERT去学习元语言，居然也能正常运作)
 - [X] Leveraging BERT for Extractive Text Summarization on Lectures (BERT做抽出要约。看能不能想到改善的方法？主要思考新方向) 
 - [X] Understanding Advertisements with BERT (单纯用字幕就能理解图片……确实make sense)
+- [ ] Fine-tune BERT for Extractive Summarization (Doing... 给别人构思研究计划用)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
