@@ -77,3 +77,6 @@
 - [ ] A Formal Hierarchy of RNN Architectures (饱和RNN理论，证伪LSTM)
 - [X] PIAGET’S STRUCTURALISM AND LINGUISTICS (Cool)
 
+
+### 方向不明(重要，开拓新方向)
+- [ ] BERT-based Spatial Information Extraction (Doing...)
