@@ -34,6 +34,7 @@
 - [X] Leveraging BERT for Extractive Text Summarization on Lectures (BERT做抽出要约。看能不能想到改善的方法？主要思考新方向) 
 - [X] Understanding Advertisements with BERT (单纯用字幕就能理解图片……确实make sense)
 - [ ] Fine-tune BERT for Extractive Summarization (Doing... 给别人构思研究计划用)
+- [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
@@ -54,7 +55,8 @@
 - [ ] #99 2016 8604 Unsupervised representation learning with deep convolutional generative adversarial networks (图片空间向量操作)
 - [X] 2019 44 ON THE RELATIONSHIP BETWEEN AND CONVOLUTIONAL LAYERS (现在CNN用爽了，不用自找麻烦了)
 - [ ] 2021 `Trending` Swapping Autoencoder for Deep Image Manipulation (当前AE最好的应用了应该)
-
+- [X] #3 2016 cite2572 InfoGan
+  - [X] #3.1 Understanding Mutual Information and its Use in Info
 
 #### NLP
 - [ ] 2018 89 Disentangled representation learning for text style transfer. (text style transfer) 
@@ -63,18 +65,14 @@
 - [ ] 2018 123 A deep generative framework for paraphrase generation.
 - [ ] 2018 11 Syntactic manipulation for generating more diverse and interesting texts.
 - [ ] 2017 374 Grammar variational autoencoder.
-
-#### CV NLP 交叉领域
-- [ ] Beyond Visual Semantics: Exploring the Role of Scene Text in Image Understanding
-
-#### 遗产
-- [ ] A Formal Hierarchy of RNN Architectures (饱和RNN理论，证伪LSTM)
-
-## Done 
-
 - [X] #1 Generating Sentences from Disentangled Syntactic and Semantic Spaces (居然是字节跳动的论文，主要是对潜在空间的z计算了一些辅助loss，以引入一些额外知识，老实说太复杂了我感觉应用前景不大)
 - [X] #2 2017 Toward controlled generation of text.  (text style transfer) (Adversarial Loss)
-- [X] #3 2016 cite2572 InfoGan
-  - [X] #3.1 Understanding Mutual Information and its Use in InfoGAN
+
+
+### CV NLP 交叉领域
+- [ ] Beyond Visual Semantics: Exploring the Role of Scene Text in Image Understanding
+
+### 遗产
+- [ ] A Formal Hierarchy of RNN Architectures (饱和RNN理论，证伪LSTM)
 - [X] PIAGET’S STRUCTURALISM AND LINGUISTICS (Cool)
-- [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
+
