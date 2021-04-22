@@ -24,7 +24,7 @@
   - [ ] Do Attention Heads in BERT Track Syntactic Dependencies? 
   - [X] What Does BERT Look at? An Analysis of BERT’s Attention (解剖BERT) (斯坦福大学+脸书的论文，但是老实说没有什么收获，非要说的话 #1 SEP像是一个垃圾桶。 #2 CLS确实起到统合作用) （也许我后续要考虑带上两个SEP……）
 - [ ] A Novel Hierarchical BERT Architecture for Sarcasm Detection (新架构？)
-- [ ] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？)
+- [X] ALBERT-BiLSTM for Sequential Metaphor Detection (隐喻检测？) (Q：我也可以发ACL workshop吗？。三种subword的处理方式，最后选了只保留首部。保留BERT的output用作concat重要CRF vs Softmax)
 - [ ] BERT-ology
   - [ ] 2019 321 Bert rediscovers the classical nlp pipeline. 
   - [ ] 2019 240 What does bert learn about the structure of language?
@@ -36,6 +36,7 @@
 - [X] Fine-tune BERT for Extractive Summarization （还行，不过好像对BERT的）
 - [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
 - [X] Applying BERT to Document Retrieval with Birch (和想象的不一样，IR似乎是搜索引擎相关的东西，而不是制表)
+- [ ] Improving Context Modeling in Neural Topic Segmentation (Doing...)
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
