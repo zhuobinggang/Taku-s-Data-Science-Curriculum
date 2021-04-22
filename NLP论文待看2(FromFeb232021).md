@@ -80,4 +80,4 @@
 
 
 ### 方向不明(重要，开拓新方向)
-- [ ] BERT-based Spatial Information Extraction (Doing...)
+- [X] BERT-based Spatial Information Extraction (句子中的位置信息提取任务还蛮有意思。joint model; Resnet; Dropout; CLS+Mean;)
