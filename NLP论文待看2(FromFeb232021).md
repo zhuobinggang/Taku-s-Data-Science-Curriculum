@@ -64,6 +64,7 @@
 
 #### NLP
 - [X] 2018 557 Toward Controlled Generation of Text (VAE。这个效果好像是近期见过最好的。也许应该从这个的引用论文开始看，而不是看以前的老古董)
+  - [ ] 2020 20 A Probabilistic Formulation of Unsupervised Text Style Transfer (Doing...)
 - [ ] 2018 89 Disentangled representation learning for text style transfer. (text style transfer) 
 - [X] 2018 254 Style transfer in text: Exploration and evaluation. (text style transfer) (北大+南加州大学的论文，这种质量真是见鬼了，主要思路是用GAN来对抗生成想要的style，可是看起来效果很差。唯一的收获是又找到几篇论文)
 - [ ] 2018 154 Syntax-directed variational autoencoder for structured data. (impose context-free grammars (CFGs as hard constraints in the VAE decoder)
@@ -72,8 +73,7 @@
 - [ ] 2017 374 Grammar variational autoencoder.
 - [X] #1 Generating Sentences from Disentangled Syntactic and Semantic Spaces (居然是字节跳动的论文，主要是对潜在空间的z计算了一些辅助loss，以引入一些额外知识，老实说太复杂了我感觉应用前景不大)
 - [X] #2 2017 Toward controlled generation of text.  (text style transfer) (Adversarial Loss)
-- [ ] 2017 133 adversarial multi-criteria learning for chinese word segmentation (用GAN来分词，还是中文，总之看一下吧)
-- [ ] 
+- [ ] 2017 133 adversarial multi-criteria learning for chinese word segmentation (用GAN来分词，还是中文，总之看一下吧) (Doing...)
 
 
 ### CV NLP 交叉领域
