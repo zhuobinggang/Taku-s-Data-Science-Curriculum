@@ -36,7 +36,7 @@
 - [X] Fine-tune BERT for Extractive Summarization （还行，不过好像对BERT的）
 - [X] CogLTX: Applying BERT to Long Texts (清华大学，延长BERT处理长度) (引入了一个记忆机制，其实可以理解成一个attention，) (可以理解成衰减self attention)
 - [X] Applying BERT to Document Retrieval with Birch (和想象的不一样，IR似乎是搜索引擎相关的东西，而不是制表)
-- [ ] Improving Context Modeling in Neural Topic Segmentation (Doing...)
+- [X] Improving Context Modeling in Neural Topic Segmentation (这你妈不就是我的想法吗……有点蛋疼。假设在性能上没法超过，我的研究还有什么新规性呢？1）日语 2）段落分割不等于主题分割 3）架构上不一样。还有就是到底要不要引用这个论文呢？如果性能没办法超过就不要引了，如果wikisection上的性能超过那就引吧，还能补充一句说BERT就是王，其他绕道走)（得到的新思路是可以BERT + static embedding，也许性能会更好）
 
 ### 评估与分析
 - [X] Scalable Mutual Information Estimation using Dependence Graphs (互信息评估仪，可以评估不同方案embedding和相应label的相关程度。值得看，也许能作为评估手段) (还行，主要是信息论在DNN上的运用。配合下面一个看，算是剖析神经网络。最重要的收获： 先扩大再缩小，泛化=压缩性能更好，而且不需要那么多的参数)
