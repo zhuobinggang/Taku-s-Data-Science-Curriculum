@@ -78,6 +78,7 @@
 
 ### CV NLP 交叉领域
 - [ ] Beyond Visual Semantics: Exploring the Role of Scene Text in Image Understanding
+- [X] 2021 16 MLP-Mixer: An all-MLP Architecture for Vision (这个看了油管的解读，首先回到原点挺好的，留下的技术只有GELU和skip connection和batch norm；重点是分batch，然后横竖使用MLP，很简单；比起vision transformer的好处在于，TF需要平方计算时间和内存容量；虽然小量数据集的性能还是堪忧，但是大量数据集完全可以和其他模型较劲；)
 
 ### 遗产
 - [ ] A Formal Hierarchy of RNN Architectures (饱和RNN理论，证伪LSTM)
